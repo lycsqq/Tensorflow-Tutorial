@@ -63,6 +63,7 @@ for step in range(60):
 
     # plotting
     plt.plot(steps, y.flatten(), 'r-'); plt.plot(steps, pred_.flatten(), 'b-')
-    plt.ylim((-1.2, 1.2)); plt.draw(); plt.pause(0.05)
+    plt.ylim((-1.2, 1.2)); plt.draw()
+    # plt.pause(0.05)
 
 plt.ioff(); plt.show()
